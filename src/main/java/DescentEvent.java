@@ -11,7 +11,9 @@ public class DescentEvent {
         this.Fuel = f;
         this.Altitude = h;
     }
-
+    public int getFuel() {
+        return Fuel;
+    }
     public int getVelocity() {
         return this.Velocity;
     }
